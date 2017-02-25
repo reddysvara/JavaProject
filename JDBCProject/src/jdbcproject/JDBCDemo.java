@@ -5,6 +5,9 @@ public static void main(String[] args)
 {
 	try
 	{
+	
+		//Clonnnig demo and use this as refernce
+		
 		Connection myconn= DriverManager.getConnection("jdbc:mysql://localhost:3306/MyTestDB","root","tiger");
 	
 	Statement mystmt=myconn.createStatement();
